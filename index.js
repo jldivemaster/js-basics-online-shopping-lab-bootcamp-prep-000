@@ -16,6 +16,20 @@ function addToCart(item) {
 function viewCart() {
   str = "In your cart, you have ";
 
+  for (let i = 0; i < cart.length; i++) {
+    if (cart.length === 0) {
+      console.log("Your shopping cart is empty.");
+    } else if (cart.length === 1) {
+      str += "${name} at $${price}.";
+      console.log(str);
+    } else if (cart.length === 2) {
+      str += "${name1} at $${price1}, and ${name2} at ${price2}.";
+      console.log(str);
+    } else {
+      str += "${name[0..-2]} at $${price}, and ${name[-1]} at ${price[-1]}.";
+      console.log(str);
+    }
+  }
 }
 
 function total() {
