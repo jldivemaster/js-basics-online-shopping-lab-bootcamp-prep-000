@@ -22,7 +22,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  
+
 }
 
 function placeOrder(cardNumber) {
