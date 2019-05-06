@@ -15,7 +15,7 @@ function addToCart(item) {
 
 function viewCart() {
   str = "In your cart, you have ";
-  
+
 }
 
 function total() {
@@ -27,7 +27,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  
+
 }
 
 function placeOrder(cardNumber) {
